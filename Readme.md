@@ -17,8 +17,8 @@ char json[] =
 "{\"sensor\":\"gps\",\"time\":1351824120,\"data\":[48.756080,2.302038]}";
 
 // Wi-fi Casa
-char ssid[] = "MANHA ";
-char pass[] = "acdz6835mmcd";
+char ssid[] = "(NOME DA REDE WIFI)";
+char pass[] = "(SENHA DA REDE WIFI)";
 
 //Wi-fi Roteador - Testes
 //char ssid[] = "Teste";
