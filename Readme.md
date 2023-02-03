@@ -1,4 +1,4 @@
 Projeto de um dispositivo que exibe informações climáticas locais em um display LCD e as narram através do alto falante.
 Este projeto foi o TCC para o curso Técnico de Eletroeletrônica do SENAI Engº Marcondes Ferraz o qual me formei em 2021.
 No qual utilizamos o ESP8266(uma placa baseada no Arduino, que possui módulo wifi integrado), o módulo DFPlayerMini(um leitor de SDCard que possibilita a reprodução de MP3), Alto falante, Display 20x4.
-Desenvolvemos do zero o código e fomos atribuindo as bibliotecas conforme o projeto foi acontecendo.
+Desenvolvemos do zero o código e fomos atribuindo as bibliotecas conforme o projeto foi acontecendo, o site utilizado para request da previsão do clima foi a API do OpenWeatherMap, a cada 10 minutos uma nova request era realizada retornando um arquivo JSON e o mesmo tinha seus campos de informações identificados e as mesmas armazenadas. Com essas informações armazenadas ao pressionar o botão de reproduzir no dispositivo, as informações eram narradas através de audios(que foram gravados no site da Azure).
